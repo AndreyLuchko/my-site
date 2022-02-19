@@ -49,6 +49,9 @@ body {
 .hero-image {
   margin-bottom: 480px;
 }
+.user-image img {
+  border-radius: 50%;
+}
 
 .hero-image .container {
   max-width: 1408px;
@@ -89,6 +92,9 @@ body {
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
+}
+.portfolio h3 {
+  margin-top: 30px;
 }
 
 .intro p {
