@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: Tahoma;
+    background-image: linear-gradient(to bottom right, rgb(0, 219, 222),rgb(252, 0, 255));
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    
+}
+h1{
+    cursor: help;
+    padding-bottom: 30px;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    padding: 30px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.7);
+    border-radius: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    font-size: 15px;
+    border: none;
+}
+.groupeinput{
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+}
+.groupe{
+    margin-top: 20px;
+    border-bottom: 2px solid grey;
+}
+label{
+   font-size: 14px;
+}
+.forgotpas{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+}
+input[type=button]{
+    background-image: linear-gradient(to right, rgb(0, 219, 222), rgb(252, 0, 255));
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+}
+.signuptext{
+    text-align: center;
+    margin-top: 100px;
+}
+.signuptextsm{
+    text-align: center;
+    margin-top: 30px;
+}
+.signup{
+    text-align: center;
+    margin-top: 10px;
+}
+a:link{
+    text-decoration: none;
+  }
+span{
+    opacity: 0.5;
+}
+.sm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+a i{
+    color: white;
+    padding: 15px;  
+}
+.facebook{
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50%;
+    background-color: #3b5998;
+    font-size: 20px;
+}
+.twitter{
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50%;
+    background-color: rgb(0, 172, 238);
+    margin: 0 10px;
+    font-size: 20px;
+}
+.google{
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50%;
+    background-color: rgb(219, 68, 55);
+    font-size: 20px;
+}

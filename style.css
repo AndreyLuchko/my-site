@@ -120,6 +120,11 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-js {
+  background-image: url("img/icon-javascript.svg");
+  background-size: 24px 24px;
+}
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
@@ -169,6 +174,16 @@ body {
   border-radius: 4px;
   background-color: #712073;
   color: #ffffff;
+}
+
+.portfolio-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-element {
+  flex: 0 1 50%;
 }
 
 .page-footer {
